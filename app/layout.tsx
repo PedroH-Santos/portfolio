@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ProjectCard from "./project-card";
 import Image from 'next/image';
+import TecCard from "./tec-card";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -53,9 +54,9 @@ export default function RootLayout({
 
         <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
           <h3 className="mb-8 text-lg"> Sobre mim  </h3>
-          <div className="flex flex-wrap flex-row gap-4 mx-auto">
-            <img src="/profile.jpg" alt="profile"  className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
-
+          <div className="flex  md:flex-row md:max-w-7xl  gap-8 mx-auto">
+            <img src="/profile.jpg" alt="profile" className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
+            <div className="flex flex-row flex-wrap">
               <p className="">
                 Olá!
 
@@ -63,6 +64,8 @@ export default function RootLayout({
 
                 Minha paixão pela programação, desenvolvida ao longo desses 3 anos de experiência, reside em enfrentar desafios para criar software e programação para grandes empresas que ajudam outras pessoas a realizar atividades ao longo do dia.
               </p>
+              <button className="mx-auto" type="button"> Download CV </button>
+            </div>
           </div>
 
 
@@ -80,6 +83,20 @@ export default function RootLayout({
 
         </div>
 
+        <div className=" flex flex-wrap flex-col items-center justify-center p-3  ">
+          <h3 className="mb-8 text-lg"> Tecnologias  </h3>
+          <div className="flex  gap-8 flex-row  ">
+            <TecCard type="1" title="BackEnd"> </TecCard>
+            <TecCard type="2" title="FrontEnd" > </TecCard>
+            <TecCard type="3" title="Infraestrutura" > </TecCard>
+            <TecCard type="4" title="Banco de Dados" > </TecCard>
+
+
+
+          </div>
+
+
+        </div>
 
       </body>
     </html >
