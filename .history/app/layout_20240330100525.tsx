@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ProjectCard from "./project-card";
-import Image from 'next/image';
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -53,16 +53,13 @@ export default function RootLayout({
 
         <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
           <h3 className="mb-8 text-lg"> Sobre mim  </h3>
-          <div className="flex flex-wrap flex-row gap-4 mx-auto">
-            <img src="/profile.jpg" alt="profile"  className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
+          <div className="flex flex-wrap flex-col gap-8 mx-auto items-center justify-center">
+           <Image src="../public/imagem1.jpg" />
+           <p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula nunc, vulputate et ultricies a, egestas ac ligula. Phasellus at nisi augue. Nunc in tortor vel nisi porta accumsan. Pellentesque in lorem at est tincidunt placerat. Curabitur posuere, mauris vitae aliquet congue, nibh orci rhoncus tortor, eget tristique quam dui quis risus. Praesent efficitur vestibulum diam, nec rutrum enim sodales id. Sed ac imperdiet quam, eu commodo mi. Fusce at orci eleifend, varius felis non, suscipit turpis. Integer id leo dictum, porttitor lectus vitae, fermentum justo. Nullam a ante ac nisi molestie convallis vitae a ipsum. Nam sed vestibulum magna, in consectetur augue. Praesent tincidunt ipsum dolor, et congue tortor fringilla et.
 
-              <p className="">
-                Olá!
-
-                Eu sou Pedro Henrique, um engenheiro de software full-stack. Tenho um curso técnico em informática e atualmente estou cursando bacharelado em sistemas de informação na PUC-MG.
-
-                Minha paixão pela programação, desenvolvida ao longo desses 3 anos de experiência, reside em enfrentar desafios para criar software e programação para grandes empresas que ajudam outras pessoas a realizar atividades ao longo do dia.
-              </p>
+              Donec nec erat quam. Vivamus maximus velit velit, quis tempus mauris hendrerit vel. Cras sagittis sapien risus, malesuada feugiat elit vehicula in. Phasellus elit felis, placerat ac metus sit amet, suscipit commodo neque. Integer commodo tincidunt est non suscipit. Sed vel pretium orci, ac maximus ipsum. Vestibulum auctor ligula sed justo euismod viverra. Nam cursus neque id elit ultrices congue. Suspendisse porttitor cursus metus, ut eleifend velit finibus vitae. Nunc sed blandit tortor. Duis eleifend consequat orci sed malesuada.
+           </p>
           </div>
 
 

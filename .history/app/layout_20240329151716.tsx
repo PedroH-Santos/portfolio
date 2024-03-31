@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ProjectCard from "./project-card";
-import Image from 'next/image';
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -51,23 +51,6 @@ export default function RootLayout({
 
         </div>
 
-        <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
-          <h3 className="mb-8 text-lg"> Sobre mim  </h3>
-          <div className="flex flex-wrap flex-row gap-4 mx-auto">
-            <img src="/profile.jpg" alt="profile"  className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
-
-              <p className="">
-                Olá!
-
-                Eu sou Pedro Henrique, um engenheiro de software full-stack. Tenho um curso técnico em informática e atualmente estou cursando bacharelado em sistemas de informação na PUC-MG.
-
-                Minha paixão pela programação, desenvolvida ao longo desses 3 anos de experiência, reside em enfrentar desafios para criar software e programação para grandes empresas que ajudam outras pessoas a realizar atividades ao longo do dia.
-              </p>
-          </div>
-
-
-        </div>
-
 
         <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
           <h3 className="mb-8 text-lg"> Projetos  </h3>
@@ -80,7 +63,9 @@ export default function RootLayout({
 
         </div>
 
-
+        <div className="flex-row items-center justify-center p-10 w-full w-screen mx-auto">
+          
+        </div>
       </body>
     </html >
   );

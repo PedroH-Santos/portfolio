@@ -54,15 +54,12 @@ export default function RootLayout({
         <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
           <h3 className="mb-8 text-lg"> Sobre mim  </h3>
           <div className="flex flex-wrap flex-row gap-4 mx-auto">
-            <img src="/profile.jpg" alt="profile"  className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
+            <Image src="/profile.jpg" alt="profile" width={200} height={200} className="object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" />
+            <div className="flex flex-col justify-between p-4 leading-normal">
 
-              <p className="">
-                Olá!
-
-                Eu sou Pedro Henrique, um engenheiro de software full-stack. Tenho um curso técnico em informática e atualmente estou cursando bacharelado em sistemas de informação na PUC-MG.
-
-                Minha paixão pela programação, desenvolvida ao longo desses 3 anos de experiência, reside em enfrentar desafios para criar software e programação para grandes empresas que ajudam outras pessoas a realizar atividades ao longo do dia.
+              <p>
               </p>
+            </div>
           </div>
 
 
