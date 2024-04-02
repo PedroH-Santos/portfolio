@@ -8,8 +8,8 @@ const ProjectCard = (props: any) => {
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Projeto de teste </h5>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere purus at interdum ullamcorper. Mauris dapibus nunc vitae cursus faucibus. Nulla non dictum eros. Suspendisse lobortis tempor nisl id tincidunt. Phasellus sagittis ante a nunc interdum molestie. Fusce rhoncus laoreet nisi vel tempor. Sed vestibulum nec libero non placerat.</p>
                 <div className="flex flex-row gap-3 justify-center items-center">
-                    <a className="p-1 border-2 border-teal-100"> GitHub </a>
-                    <a className="p-1 border-2 border-teal-100"> Linkedin </a>
+                    <a className="custom-button py-2 px-4  rounded inline-flex gap-3  items-center"> Repository </a>
+                    <a className="custom-button py-2 px-4  rounded inline-flex gap-3  items-center"> Deploy </a>
                 </div>
             </div>
         </div>
