@@ -2,7 +2,7 @@
 
 const ProjectCard = (props: any) => {
     return ( 
-        <div className="p-5 mb-8  flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-5xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <div className="p-5 mb-8  flex flex-col items-center  border border-gray-400 rounded-lg shadow  md:flex-row md:max-w-2xl  dark:border-gray-700">
             <img className="object-cover rounded-t-lg h-96  md:w-96 md:rounded-none md:rounded-s-lg" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="" />
             <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Projeto de teste </h5>
