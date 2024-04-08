@@ -120,7 +120,7 @@ export default function RootLayout({
 
         <div className="container flex flex-wrap flex-col items-center justify-center p-10 w-full w-screen mx-auto ">
           <h3 className="mb-8 text-3xl dark:text-gray-200"> Projetos  </h3>
-          <div className="flex flex-wrap flex-column gap-8 mx-auto items-center ">
+          <div className="flex flex-wrap flex-column gap-8 mx-auto items-center justify-center ">
             <ProjectCard> </ProjectCard>
             <ProjectCard> </ProjectCard>
             <ProjectCard> </ProjectCard>
