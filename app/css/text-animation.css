@@ -13,7 +13,7 @@
 
 
 .text-animation div:first-child {
-  //animation: text-animation 8s infinite;
+  animation: text-animation 8s infinite;
 }
 
 .first div {

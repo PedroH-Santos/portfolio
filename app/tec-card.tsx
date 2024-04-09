@@ -115,7 +115,7 @@ const TecCard = ({ type, title }: any) => {
     }
 
     return (
-        <div className="custom-separate-border w-full max-w-md p-4  border-gray-200 rounded-lg shadow sm:p-8 ">
+        <div className="custom-separate-border w-full max-w-md   border-gray-200 rounded-lg shadow sm:p-8 ">
             <div className="flex items-center justify-between mb-4">
                 <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white mx-auto"> {title} </h5>
             </div>
