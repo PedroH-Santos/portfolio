@@ -11,6 +11,10 @@ const config: Config = {
       'body': ['Oswald','sans-serif']
     },
     extend: {
+      colors: {
+        'custom-blue': '#578cf4',
+        'custom-yellow': '#EAB308',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

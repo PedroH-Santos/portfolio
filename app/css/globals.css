@@ -38,9 +38,8 @@ body {
 }
 
 
-.container-about-me{
-  background-image: url('/backGroundAboutMe.png');
-    background-repeat: no-repeat;
+.image-about-me{
+  left: -5%;
 }
 .container-start{
   background-image: url('/backGroundStart.png');
