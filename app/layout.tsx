@@ -45,7 +45,9 @@ export default function RootLayout({
         </nav>
 
         <div className="mt-28 container-start flex flex-wrap flex-col items-center justify-center p-10 w-full mb-5  h-screen">
-          <img src="/animateProfile.jpg" alt="profile" className=" md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full " />
+          <div className="container-border-image  md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full ">
+            <img src="/animateProfile.jpg" alt="profile" className="  md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full" />
+          </div>
           <div className="flex flex-wrap flex-col items-center">
             <h1 className="text-4xl p-3 "> Hi , I'm Pedro Santos </h1>
             <div className="text-animation mb-3 p-3">
@@ -72,41 +74,35 @@ export default function RootLayout({
         </div>
 
         <div id="container-about-me" className="container-about-me container flex flex-wrap flex-col items-center justify-center p-10 w-screen h-screen mx-auto  ">
-          <h3 className="mb-8 text-3xl dark:text-gray-200 "> Sobre mim  </h3>
+          <h3 className="mb-8 text-3xl dark:text-gray-200 "> About me  </h3>
           <div className="flex  md:flex-row md:max-w-7xl md:w-full justify-center">
             <img src="/profile.jpg" alt="profile" className="md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full" />
             <div className="flex flex-row flex-wrap justify-around items-center ">
 
               <ul className="flex flex-col flex-wrap  space-y-4 text-left md:max-w-96 text-gray-200 ">
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Graduated in System Information at PUC-MG</span>
                 </li>
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Technical in TI at CEFET-MG</span>
                 </li>
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                   </svg>
-                  <span>Team size: <span className="font-semibold dark:text-yellow-500">1 developer</span></span>
+                  <span>Experience: <span className="font-semibold dark:text-custom-yellow">3 years</span></span>
                 </li>
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                   </svg>
-                  <span>Premium support: <span className="font-semibold dark:text-yellow-500">6 months</span></span>
-                </li>
-                <li className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
-                  </svg>
-                  <span>Free updates: <span className="font-semibold dark:text-yellow-500">6 months</span></span>
+                  <span>C1 advanced english level </span>
                 </li>
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
                   <CustomButton/>
