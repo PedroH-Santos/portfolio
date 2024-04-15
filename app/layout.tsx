@@ -7,6 +7,8 @@ import TecCard from "./tec-card";
 import { saveAs } from "file-saver";
 import Link from "next/link";
 import CustomButton from "./custom-button";
+import { useState } from "react";
+import Menu from "./menu";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,27 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-body">
-        <nav className="z-20 fixed w-full top-0 left-0 bg-white border-gray-200 dark:bg-gray-900 p-5">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <img src="/logo.png" alt="profile" className=" w-40 object-cover" />
-            <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-              <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
-                <li>
-                  <a href="#container-about-me" className="block py-2 px-3  rounded  md:border-0 text-gray-200 md:hover:text-custom-blue md:p-0">About me</a>
-                </li>
-                <li>
-                  <a href="#container-projects" className="block py-2 px-3  rounded  md:border-0 text-gray-200 md:hover:text-custom-blue md:p-0">Projects</a>
-                </li>
-                <li>
-                  <a href="#container-technologies" className="block py-2 px-3  rounded  md:border-0 text-gray-200 md:hover:text-custom-blue md:p-0">Technologies</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
 
+        <Menu/>
         <div className="mt-28 container-start flex flex-wrap flex-col items-center justify-center p-10 w-full mb-5  h-screen">
-          <div className="container-border-image  md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full ">
+          <div className="container-border-image  md:w-96 object-cover rounded-t-lg h-96 md:rounded-full ">
             <img src="/animateProfile.jpg" alt="profile" className="  md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full" />
           </div>
           <div className="flex flex-wrap flex-col items-center">
