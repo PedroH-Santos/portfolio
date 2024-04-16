@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className="font-body">
 
         <Menu/>
-        <div className="mt-28 container-start flex flex-wrap flex-col items-center justify-center p-10 w-full mb-5  h-screen">
+        <div className="mt-28 container-start flex flex-wrap flex-row items-center justify-center p-10 w-full gap-4 h-screen">
           <div className="container-border-image  md:w-96 object-cover rounded-t-lg h-96 md:rounded-full ">
             <img src="/animateProfile.jpg" alt="profile" className="  md:w-96 object-cover rounded-t-lg h-96  md:w-96 md:rounded-full" />
           </div>
