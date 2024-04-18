@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 
 const ProjectCard = (props: any) => {
@@ -7,12 +8,19 @@ const ProjectCard = (props: any) => {
 
 
         <div className="relative shadow-lg group container  rounded-md bg-gray-800 max-w-sm flex justify-center items-center  mx-auto content-div">
-            <div>
-                <div className=" fd-sh group-hover:opacity-25 overflow-hidden">
-                    <img className=" object-cover rounded-t-lg h-96  md:w-96 hover:scale-110 transition-all duration-500 cursor-pointer" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="" />
+            <div className=" md:fd-sh md:group-hover:opacity-25 overflow-hidden h-96  w-96">
+                <Image fill={true} className=" object-cover rounded-t-lg  hover:scale-110 transition-all duration-500 cursor-pointer" src="/imgPrimeiroProjeto.jpeg" alt="" />
+                
+
+                
                 </div>
+            <div className='md:hidden flex'>
+                <p className="text-3xl font-bold text-white mb-2">Festival Party</p>
+                <p>
+                    Projeto voltado para o gerenciamento de aluguéis de vestidos
+                </p>
             </div>
-            <div className="absolute opacity-0 fd-sh group-hover:opacity-100">
+            <div className="hidden md:block md:absolute md:opacity-0 md:fd-sh md:group-hover:opacity-100">
                 <div className="text-wrap w-full text-center px-2">
                     <p className="text-3xl font-bold text-white mb-2">Festival Party</p>
                     <p>
