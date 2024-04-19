@@ -27,7 +27,7 @@ export default function RootLayout({
           <Apresentation />
           <AboutMe />
           <Projects />
-
+          <Tecnologies/>
 
 
         <div className=" flex flex-wrap flex-col items-center justify-center p-3 mt-10  ">

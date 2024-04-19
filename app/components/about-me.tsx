@@ -6,9 +6,9 @@ import Image from 'next/image';
 export default function AboutMe() {
 
     return (
-        <div id="container-about-me" className="container-about-me container flex flex-col items-center justify-center w-screen h-full md:h-screen  mx-auto gap-8 mt-8 overflow-hidden">
-            <h3 className="text-3xl dark:text-gray-200 "> About me  </h3>
-            <div className="flex  flex-wrap flex-col  lg:flex-row lg:max-w-6xl lg:w-full lg:justify-between">
+        <div id="container-about-me" className="container-about-me container flex flex-col items-center justify-center w-screen h-full min-h-screen mx-auto mt-10 gap-[3rem] overflow-hidden">
+            <h3 className="text-3xl dark:text-gray-200 "> <span className="dark:text-custom-blue">About</span> <span className="dark:text-custom-yellow">me</span></h3>
+            <div className="flex  flex-wrap flex-col gap-3 lg:gap-0 lg:flex-row lg:max-w-6xl lg:w-full lg:justify-between">
                 <div className="h-96  lg:w-96  relative">
                     <Image fill={true} src="/profile.jpg" alt="profile" className="object-cover rounded-t-lg lg:rounded-full" />
                 </div>

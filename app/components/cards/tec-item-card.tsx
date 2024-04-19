@@ -14,9 +14,7 @@ const TecItemCard = ({ name , years , children }: any) => {
                         {name}
                     </p>
                     
-                    <p className="text-sm dark:text-gray-200">
-                        <span className="dark:text-custom-yellow"> {years} years </span> <span className="">  of experience </span>
-                    </p>
+
                 </div>
             </div>
         </li>
