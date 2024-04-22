@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from 'next/image';
 
 
 const Menu = (props: any) => {
@@ -8,8 +9,9 @@ const Menu = (props: any) => {
     return (
         <nav className="z-20 fixed w-full top-0 left-0 bg-white border-gray-200 dark:bg-gray-900 p-5 overflow-hidden ">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <img src="/logo.png" alt="profile" className=" w-40 object-cover" />
-                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+                <div className="w-40 h-5 relative">
+                    <Image fill={true} src="/logo.png" alt="logo" className="" />
+                </div>                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         <li>
                             <a href="#container-about-me" className="block py-2 px-3  rounded  md:border-0 text-gray-200 md:hover:text-custom-blue md:p-0">About me</a>
