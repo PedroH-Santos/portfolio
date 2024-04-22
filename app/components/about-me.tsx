@@ -19,13 +19,13 @@ export default function AboutMe() {
                             <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
-                            <span>Graduated in System Information at PUC-MG</span>
+                            <span>Studying Information Systems at PUC Minas.</span>
                         </li>
                         <li className="flex items-center space-x-3 rtl:space-x-reverse">
                             <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
-                            <span>Technical in TI at CEFET-MG</span>
+                            <span>Technical in IT at CEFET-MG.</span>
                         </li>
                         <li className="flex items-center space-x-3 rtl:space-x-reverse">
                             <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
@@ -37,7 +37,7 @@ export default function AboutMe() {
                             <svg className="flex-shrink-0 w-3.5 h-3.5 dark:text-custom-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
-                            <span>C1 advanced english level </span>
+                            <span>B2 advanced english level </span>
                         </li>
                         <li className="flex items-center space-x-3 rtl:space-x-reverse lg:justify-normal justify-center" >
                             <CustomButton />
