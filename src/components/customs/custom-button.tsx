@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 export default function CustomButton() {
     const saveFile = () => {
         saveAs(
-            "/CurriculoIngles.pdf",
+            "/enCv.pdf",
             "cv.pdf"
         );
     }
