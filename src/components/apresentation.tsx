@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Apresentation() {
 
     return (
-        <div className="mt-28 container-start flex flex-wrap flex-row items-center justify-center p-10 w-full gap-4 h-screen overflow-hidden">
+        <div className="mt-20 container-start flex flex-wrap flex-row items-center justify-center p-10 w-full gap-4 h-screen overflow-hidden">
             <div className=' w-96  h-96 relative'>
                 <Image fill={true} src="/animateProfile.jpg" alt="profile" className="  container-border-image object-cover rounded-t-lg   md:rounded-full" />
             </div>

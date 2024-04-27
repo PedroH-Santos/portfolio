@@ -6,7 +6,7 @@ export default function Projects() {
 
     return (
 
-        <div id="container-projects" className="container-about-me container flex flex-col items-center justify-center w-screen h-full min-h-screen mx-auto mt-10 gap-[3rem] overflow-hidden">
+        <div id="container-projects" className="container-about-me container flex flex-col items-center justify-center w-full h-full min-h-screen mx-auto mt-10 gap-[3rem] overflow-hidden">
             <h3 className=" text-3xl dark:text-gray-200"> <span className="dark:text-custom-blue">Proj</span><span className="dark:text-custom-yellow">ects</span></h3>
             <div className="flex flex-wrap flex-column gap-8 mx-auto   ">
                 <ProjectCard title="Festival Party" description="The 'Festival Party' project is a robust system for dress rental management. It tackles scheduling conflicts and provides vital information." link="https://github.com/PedroH-Santos/festival_party" technologies="NodeJS, Express, React, NextJS, AWS, Docker and PostgreSQL." image="/festivalParty.png"> </ProjectCard>

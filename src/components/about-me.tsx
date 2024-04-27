@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function AboutMe() {
 
     return (
-        <div id="container-about-me" className="container-about-me container flex flex-col items-center justify-center w-screen h-full min-h-screen mx-auto mt-10 gap-[3rem] overflow-hidden">
+        <div id="container-about-me" className="container-about-me container flex flex-col items-center justify-center w-full h-full min-h-screen mx-auto mt-10 gap-[3rem] overflow-hidden">
             <h3 className="text-3xl dark:text-gray-200 "> <span className="dark:text-custom-blue">About</span> <span className="dark:text-custom-yellow">me</span></h3>
             <div className="flex  flex-wrap flex-col gap-3 lg:gap-0 lg:flex-row lg:max-w-6xl lg:w-full lg:justify-between">
                 <div className="h-96  lg:w-96  relative">
